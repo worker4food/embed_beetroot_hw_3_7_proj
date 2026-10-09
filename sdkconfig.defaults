@@ -1,0 +1,28 @@
+# This file was generated using idf.py save-defconfig or menuconfig [D] key. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 6.1.0 Project Minimal Configuration
+#
+# default:
+CONFIG_IDF_TARGET="esp32s3"
+
+#
+# Build type
+#
+CONFIG_APP_REPRODUCIBLE_BUILD=y
+# end of Build type
+
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# end of Serial flasher config
+
+#
+# Component config
+#
+
+#
+# ESP-Driver:PCNT Configurations
+#
+CONFIG_PCNT_ENABLE_DEBUG_LOG=y
+# end of ESP-Driver:PCNT Configurations
+# end of Component config
